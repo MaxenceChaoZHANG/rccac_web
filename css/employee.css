@@ -1,0 +1,72 @@
+body{width:1200px;margin:auto ;text-align:center}
+.index-nav{ width: 100%;
+			border-bottom: 1px solid #eeeeee;
+			height: 24px;box-sizing: border-box;
+			background:white;}
+.index-nav-frame{width: 1200px;margin: 0 auto;background: #0482CC;}
+.index-nav-frame-line{color:white; background: #0482CC;float: left;
+					  position: relative;display: block;outline: none;
+					  cursor: pointer;width: 120px;line-height: 24px;
+					  text-align: center;font-weight: 700;
+					  z-index:1}
+					  
+.index-nav-frame-line.active{color:white;}
+
+.index-nav-frame-line-center{opacity: 0;height: 0;position: absolute;margin-tpo:50px;
+							overflow:hidden;width: 100%;transition: all 0.5s;
+							 -webkit-transition: all 0.5s;-moz-transition: all 0.5s;
+							 /* Firefox 4 */-o-transition: all 0.5s; /* Opera */}
+.index-nav-frame-line-li{width: 100%;font-weight: 500;text-align: center;background:#F2F2F2;color: #666666;}
+.index-nav-frame-line-li:hover{background: #444359;color: white;}
+.index-nav-frame-line-li:hover a{background: #444359;color: white;}/*��ʱû�õ�*/
+/*.index-nav-frame-line-focus:focus{display: none;}*/
+.index-nav-frame-line:hover .index-nav-frame-line-center{height:auto;opacity: 1;}
+
+
+.header-info{width:100%;background:#DCDCDC;overflow:hidden;padding:3px 0px;}
+.header-time{width:auto;float:left; position: relative;margin-left:80px;}
+.header-language{width:auto;float:right; position: relative;margin-right:80px;}
+
+
+.logo-search{width:100%;overflow:hidden;padding:0px;}
+.header-logo{width:500px;height:auto;float:left; position: relative;/*margin-left:80px;*/}
+/*.header-search{width:auto;float:right; position: relative;margin-top:30px;/*margin-right:80px;}*/
+
+
+.main-content{width:100%;margin:10px auto;height:auto;}
+
+.main-content .left-content{width:18%;float:left; position: relative;color:white;margin-right:20px;text-align:center;/*padding:5px;*/}
+.main-content .left-content .navi-title{width:100%;background:#0482CC;font-size:14px;line-height:24px}
+.main-content .left-content ul{width:100%;font-size:14px;margin:3px 0px;}
+/*.left-content ul{position:relative;}*/
+.left-content ul li{background:#0482CC;padding:6px 0px;line-height:24px;margin:3px 6px;cursor:pointer;}
+.left-content .menu{margin-top:3px}
+.left-content .menu .dep{background:#0482CC;margin-top:3px ;line-height:24px;background:#0482CC;text-align:left;}
+.dep a{color:white}
+
+.main-content .right-content{width:80%;height:auto; display:block;float:left; position: relative;}
+
+.right-content .chart{width:100%;height:auto;margin-bottom:5px}
+.right-content .chart img{display :block;width:auto;height:auto}
+
+div.pic{                       /*将每个div设置固定高度和宽度,添加左浮动,用margin使相邻div之间隔开*/
+      height:240px;  width:120px;                     /*每幅图片块的大小*/
+      float:left;
+      margin:5px;
+	  text-align:center;
+	  overflow:hidden;
+	  padding:10px 10px;
+	  border:thin dashed;}
+
+  .photo{            /*将div中的img元素，即图像的边框设置为none,这是因为图像在链接中,如果不取消边框就会出现默认的粗边框，影响美观。*/
+      text-align:center;
+      height:180px; width:120px;}
+
+ .info{margin:auto;}
+
+ .info li{line-height:20px;}
+ 
+ .depart{width:100%;background:#0482CC;color:white;line-height:24px;}
+ .person{width:100%;height:auto;overflow:auto}
+
+.footer-botm{width:100%;height:auto;border-top:dashed 1px;background:#DCDCDC;overflow:hidden;line-height:30px;}

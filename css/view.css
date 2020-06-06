@@ -1,0 +1,19 @@
+/* CSS Document */
+
+body{width:1200px;margin:auto ;text-align:center}
+.header-info{width:100%;background:#DCDCDC;overflow:hidden;padding:3px 0px;}
+.header-time{width:auto;float:left; position: relative;margin-left:80px;}
+.header-language{width:auto;float:right; position: relative;margin-right:80px;}
+
+
+.logo-search{width:100%;overflow:hidden;padding:0px;}
+.header-logo{width:500px;height:auto;float:left; position: relative;/*margin-left:80px;*/}
+/*.header-search{width:auto;float:right; position: relative;margin-top:30px;/*margin-right:80px;*/
+
+
+.main-content{width:auto;margin:10px auto;height:auto;/*border:dashed 1px;padding:5px*/}
+
+.announce{background:#004EA2;line-height:30px;/*margin-top:11px;*/color:white;/*padding-top:6px;*/font-size:15px;}
+
+.footer-botm{width:100%;height:auto;border-top:dashed 1px;background:#DCDCDC;overflow:hidden;line-height:30px;}
+
